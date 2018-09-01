@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@import url(fonts.css);
+/* CSS Document */
+
+/* RESET */
+* { padding:0; margin:0; font-size:12px; line-height:14px; }
+
+/* GENERAL */
+img { padding:0; margin:0; border:0; }
+
+h1 { font-size:1.2em; font-weight:bold; color: #525252; margin: 0; padding: 0; line-height:1.3em;}
+p { margin: 0; line-height: 130% }
+a {text-decoration:none; color:#525252; }
+a:hover { color:#525252; text-decoration:underline; }
+
+/* MAIN BLOCKS */
+body { border:0; color:#525252; font-family: 'Open Sans', Segoe UI, sans-serif; text-align:left; background-color:#app; }
+#page_wrapper { margin-top:0px; margin: 0 auto; border:0; text-align:left; width:950px; }
+#header_panel {	padding-top:0px; height: 100px; }
+#bannerTop { float:left; width: 689px; }
+#logo { float:left; width: 300px; margin-top: 52px; height: 48px;}
+
+#second_panel { height: 280px; float:left; }
+#clear { float: left; height: 280px; width: 260px; }
+#content{ float: left; height: 280px;width: 560px; padding: 40px 0 0 0; }
+#content2{ float: left; height: 120px; width: 560px; padding: 40px 0 0 0; }
+#end_panel { float: left; padding-top:0px; width: 897px; height: 100px; }
+#bannerBottom { float: left;width: 689px; margin-left: 208px;}
+
+#footer_panel { float: left; width: 897px; height: 30px; color:#525252; border-top:1px solid #525252; padding-top:10px; font-size: 11px; }
+#footer_panel a { font-size: 11px;  } 
+#left_footer { float: left;   color:#525252;  font-size: 11px; }
+#left_footer a { font-size: 11px;  } 
+#right_footer { float: right;  color:#525252;  font-size: 11px; }
+#right_footer a { font-size: 11px;  } 
+#infooter { float:right; margin-top:0px; width: 200px; text-align:right; font-size: 11px; }
+#footer { min-width:100px; width: auto !important; width: 100px; }
